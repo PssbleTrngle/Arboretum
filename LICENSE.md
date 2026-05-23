@@ -2,8 +2,8 @@
 <meta>
    <source>@pssbletrngle/github-meta-generator</source>
    <version>1.0.72</version>
-   <timestamp>2026-05-22T11:54:01.586Z</timestamp>
-   <hash>28aa4289178475c5</hash>
+   <timestamp>2026-05-23T20:20:13.691Z</timestamp>
+   <hash>787f509ab79b43c2</hash>
 </meta>
 -->
 
@@ -16,8 +16,6 @@ All Rights Reserved
 Copyright (c) 2026 PssbleTrngle
 
 This license applies to any files under the following directories:
-
-- ./src/main/resources/assets/
 
 ---
 
