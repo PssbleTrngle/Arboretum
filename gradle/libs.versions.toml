@@ -1,0 +1,3 @@
+[libraries]
+
+tree-shapes = { group = "com.possible-triangle", name = "tree_shapes", version = "0.2.0" }

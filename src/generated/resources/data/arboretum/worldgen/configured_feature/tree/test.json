@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "tree_shapes:blob",
+      "height": 4,
+      "offset": 0,
+      "radius": 3
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 0,
+      "lower_size": 0,
+      "min_clipped_height": 4,
+      "upper_size": 0
+    },
+    "trunk_placer": {
+      "type": "tree_shapes:rooted",
+      "base_height": 10,
+      "height_rand_a": 3,
+      "height_rand_b": 2,
+      "roots_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:oak_wood",
+          "Properties": {
+            "axis": "y"
+          }
+        }
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}
